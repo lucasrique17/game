@@ -63,7 +63,7 @@ function App() {
     setPickedCategory(category)
     setLetters(wordLetters)
     
-    setGameStage(stages[1].name)
+    setGameStage(stages[0].name)
   }, [pickWordAndCategory])
 
   //PROCESSANDO A ENTRADA DA LETRA
@@ -153,7 +153,7 @@ function App() {
       wrongLetters={wrongLetters}
       guesses={guesses}
       score={score}
-       />}
+      />}
 
       {gameStage === 'end' && <GameOver retry={retry} score={score} />}
     </div>
