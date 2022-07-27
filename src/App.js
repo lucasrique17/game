@@ -139,11 +139,6 @@ function App() {
     setGameStage(stages[0].name)
   }
 
-  // restart game with new word
-    setTimeout(function () {
-      startGame();
-    }, 1500);
-
   return (
     <div className="App">
       
