@@ -118,7 +118,7 @@ function App() {
     const uniqueLetters = [...new Set(letters)]
 
     //Condição para ganhar
-    if(guessedLetters.length === uniqueLetters.length) {
+    if(guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name ) {
 
       //Add pontuação
       setScore((actualScore) => actualScore += 100)
