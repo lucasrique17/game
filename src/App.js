@@ -129,7 +129,7 @@ function App() {
 
     }
 
-  }, [guessedLetters, letters, startGame])
+  }, [guessedLetters, letters, startGame, gameStage])
 
   //REINICIAR JOGO
   const retry = () => {
