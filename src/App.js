@@ -142,7 +142,7 @@ function App() {
   // restart game with new word
     setTimeout(function () {
       startGame();
-    }, 1000);
+    }, 1500);
 
   return (
     <div className="App">
